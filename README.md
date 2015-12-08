@@ -11,7 +11,7 @@ Step 1
 Add the following script to your html page:
 
 ``` 
-<script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
+<script src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
 ```
 
 Step 2
@@ -20,7 +20,9 @@ Use the following method to check if Dolby Digital Plus is supported.  It will r
 
 Example code 1:
 ---------------
+```
 var ddplus = Dolby.checkDDPlus();
+```
 
 Example code 2:
 ---------------
