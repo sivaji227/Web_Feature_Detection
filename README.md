@@ -9,8 +9,10 @@ This is sample code to help Web Developers feature detect for Dolby Digital Plus
 Step 1
 ==========================
 Add the following script to your html page:
- 
+
+``` 
 <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
+```
 
 Step 2
 ==========================
@@ -22,10 +24,12 @@ var ddplus = Dolby.checkDDPlus();
 
 Example code 2:
 ---------------
+```
 if( Dolby.checkDDPlus === true ){
 	// Dolby Digital Plus supported
 	// code dependent on Dolby Digital Plus here
 }
+```
 
 ##################################################
 
