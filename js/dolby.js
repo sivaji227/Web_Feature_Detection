@@ -23,7 +23,7 @@ var Dolby = Dolby || {};
     if (audio.canPlayType('audio/mp4;codecs="ec-3"') != '') {
         
         if( navigator.userAgent.indexOf('Safari') != -1 && 
-            navigator.userAgent.indexOf('Mac OS X 10') != -1 && 
+            navigator.userAgent.indexOf('Mac OS X 10_11') != -1 && 
             navigator.userAgent.indexOf('Version/9') != -1 ) {
                 // everything checks out so we can play Dolby Digital Plus
                 Dolby.supportDDPlus = true;            
