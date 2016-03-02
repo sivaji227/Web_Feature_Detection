@@ -10,7 +10,7 @@ Step 1
 ==========================
 Add the following script to your html page:
 
-``` 
+```
 <script src="https://s3-us-west-1.amazonaws.com/dolbydeveloper/1.1.0/js/dolby.min.js"></script>
 ```
 
@@ -27,7 +27,7 @@ var ddplus = Dolby.checkDDPlus();
 Example code 2:
 ---------------
 ```
-if( Dolby.checkDDPlus === true ){
+if( Dolby.checkDDPlus() === true ){
 	// Dolby Digital Plus supported
 	// code dependent on Dolby Digital Plus here
 }
